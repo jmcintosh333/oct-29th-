@@ -139,10 +139,12 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Nov5th.cpp" />
     <ClCompile Include="oct 29th.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="tic.h" />
+    <ClInclude Include="Tictactoe.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

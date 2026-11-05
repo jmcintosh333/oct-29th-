@@ -18,9 +18,15 @@
     <ClCompile Include="oct 29th.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Nov5th.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="tic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tictactoe.cpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
