@@ -24,4 +24,5 @@ namespace TicTacToe
 
 
 	void printTheGrid(twoDGrid& ticTacGrid);
+	bool checkForTheWin(const twoGrid& ticTacGrid); //passing by refrence saves SPACE (RAM -> ex: 16 GB max)
 }

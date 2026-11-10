@@ -24,12 +24,12 @@ void demoPassByREFERENCE()
 int main()
 {
 	//demoPassByREFERENCE(); 
+	std::string fillerChracter = "*";
 
-
-	std::vector<std::vector<std::string>> ticTacToeGrid(3, std::vector<std::string>(3));
+	std::vector<std::vector<std::string>> ticTacToeGrid(3, std::vector<std::string>(3, "_"));
 	//what does the line above do? 
 	//it makes an empty 2D array of size 3 x 3
 
 
-	TicTacToe::playGame(ticTacToeGrid);
+	TicTacToe::playGame(ticTacToeGrid); 
 
