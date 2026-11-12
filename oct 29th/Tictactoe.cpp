@@ -82,8 +82,21 @@ void TicTacToe::printTheGrid(twoDGrid& ticTacGrid)
 		std::cout << "___" << std::endl;
 	}
 }
-bool TicTacToe::checkForWin(const twoGrid& ticTacGrid)
+bool TicTacToe::checkForHorizonWin(const twoGrid& ticTacGrid)
+for (int row = 0; throw < 3; ++row)
+
 {
+	if (ticTacToeGrid[row][0]) == ticTacToeGrid
+		&&
+		ticTacToeGrid[row][1] == ticTacToeGrid[row][2]
+	{
+		return true;
+
+	}
+
+	{
+		return false;
+
 	ticTacToeGrid[0][0] = "X";
 	return true; 
 	return false;
